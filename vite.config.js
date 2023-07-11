@@ -5,7 +5,7 @@ const { resolve } = require('path');
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/hao123/',
+  base: process.env.NODE_ENV == "production" ? "/" : "/hao123/",
 
   plugins: [
     vue(),
