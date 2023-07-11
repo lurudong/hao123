@@ -1,6 +1,6 @@
 export const tableData = [
   {
-    name: '社区',
+    name: '技术学习',
     icon: 'el-icon-document',
     children: [
       {
